@@ -1,0 +1,19 @@
+gavin@LAPTOP-7AV5G73R MINGW64 ~/ReactProjects/LearningMERN (main)
+$ git remote add origin git@github.com:GavDotZip/LearningMERN.git
+error: remote origin already exists.
+
+gavin@LAPTOP-7AV5G73R MINGW64 ~/ReactProjects/LearningMERN (main)
+$ git branch -M main
+
+gavin@LAPTOP-7AV5G73R MINGW64 ~/ReactProjects/LearningMERN (main)
+$ git push -u origin main
+Enumerating objects: 1740, done.
+Counting objects: 100% (1740/1740), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (1686/1686), done.
+Writing objects: 100% (1740/1740), 3.38 MiB | 1.51 MiB/s, done.
+Total 1740 (delta 237), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (237/237), done.
+To https://github.com/GavDotZip/LearningMERN.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
