@@ -1,0 +1,9 @@
+Tabular (Relational)    MongoDB
+    Database                Database
+    Table                   Collection
+    Row                     Document
+    Index                   Index
+    Join                    $lookup
+    Foreign Key             Reference
+
+MongoDB stores data in BiSON (Binary JSON) format, allowing for a wide variety of support for code.
