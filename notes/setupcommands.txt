@@ -1,0 +1,120 @@
+PS C:\Users\gavin\ReactProjects\LearningMERN> node -v
+v20.11.0
+PS C:\Users\gavin\ReactProjects\LearningMERN> mkdir backend
+
+
+    Directory: C:\Users\gavin\ReactProjects\LearningMERN
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        23/04/2024     22:01                backend
+
+
+PS C:\Users\gavin\ReactProjects\LearningMERN> cd backend
+PS C:\Users\gavin\ReactProjects\LearningMERN\backend> npm init -y
+Wrote to C:\Users\gavin\ReactProjects\LearningMERN\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS C:\Users\gavin\ReactProjects\LearningMERN\backend> npm install express cors mongodb dotenv
+
+added 79 packages, and audited 80 packages in 5s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\gavin\ReactProjects\LearningMERN\backend> npm install -g nodemon
+
+added 33 packages in 3s
+
+4 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\gavin\ReactProjects\LearningMERN> cd ..
+PS C:\Users\gavin\ReactProjects\LearningMERN> npx create-react-app frontend
+
+Creating a new React app in C:\Users\gavin\ReactProjects\LearningMERN\frontend.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1494 packages in 1m
+
+258 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 67 packages, and changed 1 package in 8s
+
+262 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1561 packages in 3s
+
+262 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created frontend at C:\Users\gavin\ReactProjects\LearningMERN\frontend
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd frontend
+  npm start
+
+Happy hacking!
+PS C:\Users\gavin\ReactProjects\LearningMERN> npm install bootstrap 
+
+added 2 packages in 1s
+
+2 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\gavin\ReactProjects\LearningMERN> npm install react-router-dom
+
+added 8 packages, and audited 11 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
