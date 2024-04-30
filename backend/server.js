@@ -10,7 +10,7 @@ import restaurants from "./api/restaurants.route.js"
  app.use(express.json())
 
  //  Specify Initial Routes
- app.use("/api/v1/restaurants", restaurants)
+ app.use("/api/v1/restaurants", restaurants) // to startup server, cd backend -> nodemon server
  app.use("*", (req, res) => res.status(404).json({ error: "not found"})) // 404 if different route
 
  // Export app as module
